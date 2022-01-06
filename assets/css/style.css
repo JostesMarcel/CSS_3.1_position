@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap'); /* font-family: 'Monoton', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap'); /* font-family: 'Ubuntu', sans-serif; */
+
+/* Farben #070707, #9d9f9f, #f4f7f8 und #AC8059 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+    background-color: #070707;
+    color: #9d9f9f;
+}
+
+nav {
+    border-bottom: 1px solid;
+    padding-bottom: 3em;
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+    position: absolute;
+    font-size: 1.7em;
+    left: 2%;
+    top: 5px;
+}
+
+section:nth-of-type(1) a {
+    position: absolute;
+    text-decoration: none;
+    left: 7%;
+    top: 15px;
+    color: #9d9f9f;
+}
+
+section:nth-of-type(2) {
+    display: inline-block;
+    position: absolute;
+    right: 5%;
+    top: 15px;
+} 
+
+section:nth-of-type(2) a {
+    padding: 0 5vh;
+    text-decoration: none;
+    color: #9d9f9f;
+}
+
+section:nth-of-type(2) a:first-child {
+    color: #f4f7f8;
+}
+
+main section {
+    position: absolute;
+    bottom: 45%;
+    left: 13%;
+}
+
+h2 {
+    width: 25vh;
+    font-size: 3em;
+}
+
+main section p {
+    margin-top: 30px;
+    color: #AC8059;
+    font-size: 0.8em;
+}
+
+main section:nth-of-type(2) {
+    position: absolute;
+    left: 43vh;
+    right: 0;
+    top: 10%;
+    bottom: 10%;
+}
+
+img {
+    width: 27vh;
+    height: 79vh;
+    padding: 0 10px;
+}
+
+.fas:first-child {
+    position: absolute;
+    right: 15%;
+    bottom: 7%;
+    padding: 0 10px;
+    border: 2px solid #AC8059;
+    border-radius: 50%;
+}
+
+.fas:last-child {
+    position: absolute;
+    right: 10%;
+    bottom: 7%;
+    padding: 0 10px;
+    border: 2px solid #AC8059;
+    border-radius: 50%;
+}
+
+.fa-chevron-left {
+    height: 40px;
+    width: 40px;
+}
+
+.fa-chevron-right {
+    height: 40px;
+    width: 40px;
+}
+
+ul {
+    position: relative;
+    top: 93vh;
+    right: 105vh;
+    
+}
+
+li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.fab {
+    font-size: 2vh;
+}
